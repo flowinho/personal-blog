@@ -1,8 +1,8 @@
-—
+—--
 layout: page
 title: Impressum
 permalink: /impressum/
-—
+---
 
 <h2 id=„m46“>Diensteanbieter</h2>
 <p>Florian Schuttkowski</p>
