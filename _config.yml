@@ -1,4 +1,4 @@
-title: Dadda
+title: Dadda.moe
 author:
   name: Dadda
   email: post@dadda.moe
@@ -6,8 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Description :-)
-
+  Ein einfacher Mensch, er/ihm, der versucht Inhalte zu produzieren, die Besicher dieser Seite hoffentlich lesenswert finden. Wie fast alles was ich tue, widme ich diese Seite meinen beiden wundervollen Töchtern und meiner Partnerin. Danke dass ihr die Sonne in mein Nerd-Herz scheinen lasst. ♥️
 # Build settings
 
 theme: minima
