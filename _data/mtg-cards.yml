@@ -6,3 +6,27 @@
   price: 30
   type: Planeswalker
   url: https://scryfall.com/card/2xm/56/jace-the-mind-sculptor
+- name: Bountiful Promenade
+  price: 5
+  type: Land
+  url: https://scryfall.com/card/clb/348/bountiful-promenade
+- name: Morphic Pool
+  price: 8
+  type: Land
+  url: https://scryfall.com/card/clb/357/morphic-pool
+- name: Rejuvenating Springs
+  price: 8
+  type: Land
+  url: https://scryfall.com/card/cmr/354/rejuvenating-springs
+- name: Sea of Clouds
+  price: 6
+  type: Land
+  url: https://scryfall.com/card/clb/360/sea-of-clouds
+- name: Undergrowth Stadium
+  price: 8
+  type: Land
+  url: https://scryfall.com/card/cmr/359/undergrowth-stadium
+- name: Vault of Champions
+  price: 9
+  type: Land
+  url: https://scryfall.com/card/cmr/360/vault-of-champions
