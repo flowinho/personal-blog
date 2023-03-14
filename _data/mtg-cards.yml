@@ -34,5 +34,17 @@
   price: 3
   type: Enchantment
   url:  https://scryfall.com/card/clb/730/propaganda 
+- name: Skithiryx, the Blight Dragon 
+  type: Creature
+- name: Inexorable Tide
+  type: Enchantment
+- name: Contaminant Grafter
+  type: Creature  
+- name: Glistener Elf
+  type: Creature 
+- name: Plague Stinger
+  type: Creature 
+- name: Ichor Rats
+  type: Creature 
 - name: Phyresis Outbreak
   type: Sorcery 
