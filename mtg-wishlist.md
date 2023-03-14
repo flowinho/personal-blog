@@ -5,6 +5,8 @@ permalink: /mtg-wishlist/
 ---
 
 {% if site.data.mtg-cards %}
+Hier findest du eine regelmäßig aktualisierte Liste der Karten die ich aktuell suche. Die Tabelle ist sortiert nach Kartentyp, der Wunschpreis gibt an, welchen Preis ich für die Karte bevorzugt bezahlen möchte.
+
 <table>
     <tr>
         <th>Karte</th>
