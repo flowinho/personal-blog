@@ -3,36 +3,37 @@
 // Default color scheme settings
 // These are overridden in classic.css and dark.scss
 
-$color-scheme-auto: false !default;
+$color-scheme-auto: true !default;
 $color-scheme-dark: false !default;
 
 
 // Light mode
 // ----------
 
-$lm-brand-color:           #657296 !default;
-$lm-brand-color-light:     lighten($lm-brand-color, 40%) !default;
-$lm-brand-color-dark:      darken($lm-brand-color, 25%) !default;
+$lm-brand-color:              #657296 !default;
+$lm-brand-color-light:        lighten($lm-brand-color, 40%) !default;
+$lm-brand-color-dark:         darken($lm-brand-color, 25%) !default;
 
-$lm-site-title-color:      $lm-brand-color-dark !default;
+$lm-site-title-color:         $lm-brand-color-dark !default;
 
-$lm-text-color:            #111111 !default;
-$lm-background-color:      #fdfdfd !default;
-$lm-code-background-color: #eaeaff !default;
+$lm-text-color:               #111111 !default;
+$lm-background-color:         #fdfdfd !default;
+$lm-code-background-color:    #eaeaff !default;
+$lm-mermaid-background-color: #eaeaff !default;
 
-$lm-link-base-color:       #568dcb !default;
-$lm-link-visited-color:    darken($lm-link-base-color, 15%) !default;
-$lm-link-hover-color:      $lm-text-color !default;
+$lm-link-base-color:        #568dcb !default;
+$lm-link-visited-color:       darken($lm-link-base-color, 15%) !default;
+$lm-link-hover-color:         $lm-text-color !default;
 
-$lm-border-color-01:       $lm-brand-color-light !default;
-$lm-border-color-02:       lighten($lm-brand-color, 35%) !default;
-$lm-border-color-03:       $lm-brand-color-dark !default;
+$lm-border-color-01:          $lm-brand-color-light !default;
+$lm-border-color-02:          lighten($lm-brand-color, 35%) !default;
+$lm-border-color-03:          $lm-brand-color-dark !default;
 
-$lm-table-text-color:      lighten($lm-text-color, 18%) !default;
-$lm-table-zebra-color:     lighten($lm-brand-color, 46%) !default;
-$lm-table-header-bg-color: lighten($lm-brand-color, 43%) !default;
-$lm-table-header-border:   lighten($lm-brand-color, 37%) !default;
-$lm-table-border-color:    $lm-border-color-01 !default;
+$lm-table-text-color:         lighten($lm-text-color, 18%) !default;
+$lm-table-zebra-color:        lighten($lm-brand-color, 46%) !default;
+$lm-table-header-bg-color:    lighten($lm-brand-color, 43%) !default;
+$lm-table-header-border:      lighten($lm-brand-color, 37%) !default;
+$lm-table-border-color:       $lm-border-color-01 !default;
 
 
 // Syntax highlighting styles should be adjusted appropriately for every "skin"
@@ -113,8 +114,9 @@ $dm-brand-color-dark:      darken($dm-brand-color, 35%) !default;
 $dm-site-title-color:      $dm-brand-color-light !default;
 
 $dm-text-color:            #bbbbbb !default;
-$dm-background-color:      #181818 !default;
+$dm-background-color:      #000000 !default;
 $dm-code-background-color: #212121 !default;
+$dm-mermaid-background-color: #808094 !default;
 
 $dm-link-base-color:       #79b8ff !default;
 $dm-link-visited-color:    $dm-link-base-color !default;
@@ -219,6 +221,7 @@ $site-title-color: $lm-site-title-color;
 $text-color: $lm-text-color;
 $background-color: $lm-background-color;
 $code-background-color: $lm-code-background-color;
+$mermaid-background-color: $lm-mermaid-background-color;
 
 $link-base-color: $lm-link-base-color;
 $link-visited-color: $lm-link-visited-color;
@@ -249,6 +252,7 @@ $table-border-color: $lm-table-border-color;
     --minima-text-color: #{$lm-text-color};
     --minima-background-color: #{$lm-background-color};
     --minima-code-background-color: #{$lm-code-background-color};
+    --mermaid-background-color: #{$lm-mermaid-background-color};
 
     --minima-link-base-color: #{$lm-link-base-color};
     --minima-link-visited-color: #{$lm-link-visited-color};
@@ -278,6 +282,7 @@ $table-border-color: $lm-table-border-color;
       --minima-text-color: #{$dm-text-color};
       --minima-background-color: #{$dm-background-color};
       --minima-code-background-color: #{$dm-code-background-color};
+      --mermaid-background-color: #{$dm-mermaid-background-color};
 
       --minima-link-base-color: #{$dm-link-base-color};
       --minima-link-visited-color: #{$dm-link-visited-color};
@@ -306,6 +311,7 @@ $table-border-color: $lm-table-border-color;
   $text-color: var(--minima-text-color);
   $background-color: var(--minima-background-color);
   $code-background-color: var(--minima-code-background-color);
+  $mermaid-background-color: var(--mermaid-background-color);
 
   $link-base-color: var(--minima-link-base-color);
   $link-visited-color: var(--minima-link-visited-color);
@@ -335,6 +341,7 @@ $table-border-color: $lm-table-border-color;
   $text-color: $dm-text-color;
   $background-color: $dm-background-color;
   $code-background-color: $dm-code-background-color;
+  $mermaid-background-color: $dm-mermaid-background-color;
 
   $link-base-color: $dm-link-base-color;
   $link-visited-color: $dm-link-visited-color;

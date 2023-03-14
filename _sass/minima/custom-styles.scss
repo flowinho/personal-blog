@@ -5,3 +5,13 @@
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
+
+.mermaid {
+    background-color: $mermaid-background-color;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #dee1e9;
+    text-align: center;
+  }

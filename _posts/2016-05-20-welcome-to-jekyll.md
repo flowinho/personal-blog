@@ -33,6 +33,22 @@ mindmap
             Creative techniques
             Strategic planning
             Argument mapping
+        Testing
+          nochmal
+          und
+          nochmal
+          und 
+          nochmal
+            einfach
+            nur
+              aber
+              auch ein
+              wenig
+                arg
+                gedrungen
+            cool
+          huhu
+          komisch
     Tools
       Pen and paper
       Mermaid
