@@ -34,3 +34,5 @@
   price: 3
   type: Enchantment
   url:  https://scryfall.com/card/clb/730/propaganda 
+- name: Phyresis Outbreak
+  type: Sorcery 
