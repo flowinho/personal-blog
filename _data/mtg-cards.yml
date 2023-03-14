@@ -30,3 +30,7 @@
   price: 9
   type: Land
   url: https://scryfall.com/card/cmr/360/vault-of-champions
+- name: Propaganda
+  price: 3
+  type: Enchantment
+  url:  https://scryfall.com/card/clb/730/propaganda 
