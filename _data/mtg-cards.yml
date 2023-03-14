@@ -1,0 +1,8 @@
+- name: Rhystic Study 
+  price: 35
+  type: Enchantement
+  url: https://scryfall.com/card/jmp/169/rhystic-study
+- name: Jace, the Mind Sculptor
+  price: 30
+  type: Planeswalker
+  url: https://scryfall.com/card/2xm/56/jace-the-mind-sculptor
