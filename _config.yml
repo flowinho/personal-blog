@@ -26,8 +26,9 @@ minima:
 # order as they should show up.
 #
 header_pages:
-  - impressum.md
-  - datenschutz.md
+  #- impressum.md
+  #- datenschutz.md
+  - mtg-wishlist.md
 
 # Set to `true` to show excerpts on the homepage.
 #
