@@ -22,12 +22,17 @@
           {%- endif %}
         </ul>
       {%- endif %}
+      <p>
+        {{ site.tracking-info }}
+      </p>
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
       </div>
+      <div class="open-source footer-col">
+        <span>{{ site.open-source | escape }}</span>
+      </div>
     </div>
-
     <div class="social-links">
       {%- include social.html -%}
     </div>
