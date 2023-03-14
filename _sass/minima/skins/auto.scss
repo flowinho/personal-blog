@@ -13,15 +13,17 @@ $color-scheme-dark: false !default;
 $lm-brand-color:              #657296 !default;
 $lm-brand-color-light:        lighten($lm-brand-color, 40%) !default;
 $lm-brand-color-dark:         darken($lm-brand-color, 25%) !default;
+$lm-accent-color:             #5600d8;
 
-$lm-site-title-color:         $lm-brand-color-dark !default;
+$lm-site-title-color:         $lm-accent-color;
 
 $lm-text-color:               #111111 !default;
 $lm-background-color:         #fdfdfd !default;
 $lm-code-background-color:    #eaeaff !default;
 $lm-mermaid-background-color: #eaeaff !default;
 
-$lm-link-base-color:        #568dcb !default;
+// $lm-link-base-color:        #568dcb !default;
+$lm-link-base-color:          $lm-accent-color !default;
 $lm-link-visited-color:       darken($lm-link-base-color, 15%) !default;
 $lm-link-hover-color:         $lm-text-color !default;
 
@@ -110,15 +112,17 @@ $lm-table-border-color:       $lm-border-color-01 !default;
 $dm-brand-color:           #9086ab !default;
 $dm-brand-color-light:     lighten($dm-brand-color, 5%) !default;
 $dm-brand-color-dark:      darken($dm-brand-color, 35%) !default;
+$dm-accent-color:          #9a56ff;
 
-$dm-site-title-color:      $dm-brand-color-light !default;
+$dm-site-title-color:      $dm-accent-color;
 
 $dm-text-color:            #bbbbbb !default;
 $dm-background-color:      #000000 !default;
 $dm-code-background-color: #212121 !default;
 $dm-mermaid-background-color: #808094 !default;
 
-$dm-link-base-color:       #79b8ff !default;
+// $dm-link-base-color:       #79b8ff !default;
+$dm-link-base-color:       $dm-accent-color !default;
 $dm-link-visited-color:    $dm-link-base-color !default;
 $dm-link-hover-color:      $dm-text-color !default;
 
@@ -222,6 +226,7 @@ $text-color: $lm-text-color;
 $background-color: $lm-background-color;
 $code-background-color: $lm-code-background-color;
 $mermaid-background-color: $lm-mermaid-background-color;
+$accent-color: $lm-accent-color;
 
 $link-base-color: $lm-link-base-color;
 $link-visited-color: $lm-link-visited-color;
@@ -253,6 +258,7 @@ $table-border-color: $lm-table-border-color;
     --minima-background-color: #{$lm-background-color};
     --minima-code-background-color: #{$lm-code-background-color};
     --mermaid-background-color: #{$lm-mermaid-background-color};
+    --accent-color: #{$lm-accent-color};
 
     --minima-link-base-color: #{$lm-link-base-color};
     --minima-link-visited-color: #{$lm-link-visited-color};
@@ -283,6 +289,7 @@ $table-border-color: $lm-table-border-color;
       --minima-background-color: #{$dm-background-color};
       --minima-code-background-color: #{$dm-code-background-color};
       --mermaid-background-color: #{$dm-mermaid-background-color};
+      --accent-color: #{$dm-accent-color};
 
       --minima-link-base-color: #{$dm-link-base-color};
       --minima-link-visited-color: #{$dm-link-visited-color};
@@ -312,6 +319,7 @@ $table-border-color: $lm-table-border-color;
   $background-color: var(--minima-background-color);
   $code-background-color: var(--minima-code-background-color);
   $mermaid-background-color: var(--mermaid-background-color);
+  $accent-color: var(--accent-color);
 
   $link-base-color: var(--minima-link-base-color);
   $link-visited-color: var(--minima-link-visited-color);
@@ -342,6 +350,7 @@ $table-border-color: $lm-table-border-color;
   $background-color: $dm-background-color;
   $code-background-color: $dm-code-background-color;
   $mermaid-background-color: $dm-mermaid-background-color;
+  $accent-color: $dm-accent-color;
 
   $link-base-color: $dm-link-base-color;
   $link-visited-color: $dm-link-visited-color;
