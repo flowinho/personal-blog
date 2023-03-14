@@ -7,6 +7,37 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
+```swift
+func blubb(){
+
+}
+```
+
+<div class="mermaid">
+graph LR
+test-->test2
+</div>
+
+<div class="mermaid">
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+</div>
+
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
