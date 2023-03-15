@@ -9,11 +9,13 @@ open-source: >
 tracking-info: >
   Diese Seite ist frei von Tracking.
 theme: minima
-include: ['_pages']
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+
+# Theme-specific settings
 
 minima:
   date_format: "%Y-%m-%d"
@@ -21,6 +23,18 @@ minima:
   - { platform: github,   user_url: "https://github.com/flowinho" }
   - { platform: mastodon, user_url: "https://chaos.social/@flowinho" }
 
+# If you want to link only specific pages in your header, uncomment this and add the path to the pages in
+# order as they should show up.
+#
 header_pages:
+<<<<<<< HEAD
   - _pages/mtg-wishlist.md
+=======
+  #- impressum.md
+  #- datenschutz.md
+  - mtg-wishlist.md
+>>>>>>> parent of a04c421 (Change folder-structure)
 
+# Set to `true` to show excerpts on the homepage.
+#
+# show_excerpts: false
