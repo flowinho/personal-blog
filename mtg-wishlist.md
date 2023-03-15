@@ -7,7 +7,7 @@ permalink: /mtg-wishlist/
 {% if site.data.mtg-cards %}
 Hier findest du eine regelmäßig aktualisierte Liste der Karten die ich aktuell suche. Die Tabelle ist sortiert nach Kartentyp, der Wunschpreis gibt an, welchen Preis ich für die Karte bevorzugt bezahlen möchte.  
 <br />
-<strong>Wichtig:</strong> Ich prüfe nicht jeden Tag die Preise jeder einzelnen Karte. Macht ihr mir also ein Angebot, prüfe ich, wieviel die Karte aktuell wert ist. Sollte sich eine größere Änderung ergeben haben, passe ich die Wunschpreise entsprechend an.
+<strong>Wichtig:</strong> Ich prüfe nicht jeden Tag die Preise jeder einzelnen Karte. Macht ihr mir also ein Angebot, prüfe ich, wieviel die Karte aktuell wert ist. Sollte sich eine größere Änderung ergeben haben, passe ich die Wunschpreise entsprechend an. Sollte kein Preis angezeigt werden, habe ich die Karte meiner Wishlist hinzugefügt, aber noch nicht nach einem akzeptablen Preis gesucht.
 
 <table>
     <tr>
@@ -20,11 +20,23 @@ Hier findest du eine regelmäßig aktualisierte Liste der Karten die ich aktuell
             <tr>
                 <td>
                     {% if card.name %}
-                        <a href="{{ card.url }}">{{ card.name }}</a>
+                        {% if card.url %}
+                            <a href="{{ card.url }}">{{ card.name }}</a>
+                        {% else %}
+                            {{ card.name }}
+                        {% endif %}
                     {% endif %}
                 </td>
-                <td>{{ card.type }}</td>
-                <td>{{ card.price }} €</td>
+                <td>
+                    {% if card.type %}
+                        {{ card.type }}
+                    {% endif %}
+                </td>
+                <td>
+                    {% if card.price %}
+                        {{ card.price }} €
+                    {% endif %}
+                </td>
             </tr>
         {% endfor %}
 </table>
