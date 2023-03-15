@@ -20,8 +20,12 @@ plugins:
 minima:
   date_format: "%Y-%m-%d"
   social_links:
+<<<<<<< HEAD
   - { platform: github,   user_url: "https://github.com/flowinho" }
   - { platform: mastodon, user_url: "https://chaos.social/@flowinho" }
+=======
+  - { platform: github,         user_url: "https://github.com/flowinho" }
+>>>>>>> parent of b413e01 (Cleanup)
 
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
 # order as they should show up.
