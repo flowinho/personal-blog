@@ -36,15 +36,29 @@
   url:  https://scryfall.com/card/clb/730/propaganda 
 - name: Skithiryx, the Blight Dragon 
   type: Creature
+  price: 23
+  url: https://scryfall.com/card/2xm/107/skithiryx-the-blight-dragon
 - name: Inexorable Tide
   type: Enchantment
+  price: 8
+  url: https://scryfall.com/card/mm2/49/inexorable-tide
 - name: Contaminant Grafter
   type: Creature  
+  price: 2
+  url: https://scryfall.com/card/onc/17/contaminant-grafter
 - name: Glistener Elf
   type: Creature 
+  price: 1
+  url: https://scryfall.com/card/nph/111/glistener-elf
 - name: Plague Stinger
   type: Creature 
+  price: 1
+  url: https://scryfall.com/card/som/75/plague-stinger
 - name: Ichor Rats
   type: Creature 
+  price: 1
+  url: https://scryfall.com/card/som/67/ichor-rats
 - name: Phyresis Outbreak
   type: Sorcery 
+  price: 5
+  url: https://scryfall.com/card/onc/12/phyresis-outbreak
