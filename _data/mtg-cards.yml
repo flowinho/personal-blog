@@ -62,3 +62,11 @@
   type: Sorcery 
   price: 5
   url: https://scryfall.com/card/onc/12/phyresis-outbreak
+- name: Teferi, Master of Time
+  type: Planeswalker
+  price: 6
+  url: https://scryfall.com/card/m21/75/teferi-master-of-time
+- name: Oath of Teferi
+  type: Enchantment
+  price: 1
+  url: https://scryfall.com/card/dom/200/oath-of-teferi
