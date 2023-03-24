@@ -27,6 +27,7 @@ minima:
 #
 header_pages:
   - _pages/mtg-wishlist.md
+  - _pages/zitate.md
 
 # Set to `true` to show excerpts on the homepage.
 #
