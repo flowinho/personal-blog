@@ -1,47 +1,7 @@
-- name: Rhystic Study 
-  price: 35
-  type: Enchantment
-  url: https://scryfall.com/card/jmp/169/rhystic-study
-- name: Jace, the Mind Sculptor
-  price: 30
-  type: Planeswalker
-  url: https://scryfall.com/card/2xm/56/jace-the-mind-sculptor
-- name: Bountiful Promenade
-  price: 5
-  type: Land
-  url: https://scryfall.com/card/clb/348/bountiful-promenade
-- name: Morphic Pool
-  price: 8
-  type: Land
-  url: https://scryfall.com/card/clb/357/morphic-pool
-- name: Rejuvenating Springs
-  price: 8
-  type: Land
-  url: https://scryfall.com/card/cmr/354/rejuvenating-springs
-- name: Sea of Clouds
-  price: 6
-  type: Land
-  url: https://scryfall.com/card/clb/360/sea-of-clouds
-- name: Undergrowth Stadium
-  price: 8
-  type: Land
-  url: https://scryfall.com/card/cmr/359/undergrowth-stadium
-- name: Vault of Champions
-  price: 9
-  type: Land
-  url: https://scryfall.com/card/cmr/360/vault-of-champions
 - name: Propaganda
   price: 3
   type: Enchantment
   url:  https://scryfall.com/card/clb/730/propaganda 
-- name: Skithiryx, the Blight Dragon 
-  type: Creature
-  price: 23
-  url: https://scryfall.com/card/2xm/107/skithiryx-the-blight-dragon
-- name: Inexorable Tide
-  type: Enchantment
-  price: 8
-  url: https://scryfall.com/card/mm2/49/inexorable-tide
 - name: Contaminant Grafter
   type: Creature  
   price: 2
@@ -58,14 +18,6 @@
   type: Creature 
   price: 1
   url: https://scryfall.com/card/som/67/ichor-rats
-- name: Phyresis Outbreak
-  type: Sorcery 
-  price: 5
-  url: https://scryfall.com/card/onc/12/phyresis-outbreak
-- name: Teferi, Master of Time
-  type: Planeswalker
-  price: 6
-  url: https://scryfall.com/card/m21/75/teferi-master-of-time
 - name: Oath of Teferi
   type: Enchantment
   price: 1
