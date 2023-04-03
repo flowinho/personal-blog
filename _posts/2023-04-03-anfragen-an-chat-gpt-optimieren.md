@@ -18,6 +18,20 @@ Um bessere Anfragen an ChatGPT zu erstellen, lassen sich die Anfragen mit ein pa
 |Format|**Tonfall** und Duktus|Unterhaltsam, zynisch und zwischen 15-25 Sätze|
 |Verfeinerung|Eigenes **Feedback** (mehrfach wiederholbar)|Eigenes Feedback geben, beispielsweise "Formuliere knapper"|
 
+Etwas zugänglicher als Schaubild erklärt:
+
+<div class="mermaid">
+stateDiagram-v2
+[*] --> Persona: Wer bist du?
+Persona --> Aufgabe: Was soll gemacht werden?
+Aufgabe --> Kriterien: Welche Aspekte sollen berücksichtigt werden?
+Kriterien --> Absicht: Was soll ausgedrückt werden?
+Absicht --> Format: Welcher Stil soll genutzt werden?
+Format --> Verfeinerung: Erstes Ergebnis
+Verfeinerung --> Verfeinerung: Anpassungen
+Verfeinerung --> [*]
+</div>
+
 Hier eine Beispielhafte Anfrage und ihre Ausgabe:
 
 > Du bist ein Software Ingenieur mit Erfahrung im Bereich Programmierung. Schreibe einen Text der Optimierung von Anfragen an die Künstliche Intelligenz ChatGPT beschreibt. Gehe dabei auf die Aspekte Persona, Aufgabe, Kriterien, Absicht, Format und Verfeinerung ein. Der Text soll technisch weniger versierten Menschen den Umgang mit ChatGPT erleichtern. Schreibe unterhaltsam und freundlich, zwischen 20 und 25 Sätzen.
