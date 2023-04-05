@@ -5,7 +5,6 @@ permalink: /secondbrain/
 ---
 
 <div class="mermaid">
-```mermaid
 sequenceDiagram
     participant a as Artikel auf Webseite
     participant in as Instapaper
@@ -35,6 +34,4 @@ sequenceDiagram
 
     sb -->> out: Teilen der Inhalte mit Dritten
     out -->> sb: Einarbeitung von Verbesserungen
-```
-
 </div>
