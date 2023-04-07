@@ -4,62 +4,52 @@ permalink: /atraxa-deck/
 title: "Mein Commander Deck: Atraxa, Praetors Voice"
 ---
 
-<style>
-.grid { 
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
-  grid-gap: 16px;
-  align-items: stretch;
-  }
-.grid > card {
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-.grid > card img {
-  max-width: 100%;
-  margin-top: 16px;
-}
-.text {
-  margin-top: 16px;
-  margin-left: 8px;
-  margin-right: 16px;
-}
-.card-title {
-    font-weight: bold;
-}
-.card-type {
-    color: darkgray;
-    border-bottom: 1px solid #ccc;
-}
-</style>
-
-## Statistics
-
 {% assign deck = site.data.atraxa-deck %}
 {% assign sorceries = site.data.atraxa-deck | where:"type","Sorcery" %}
+{% assign creatures = site.data.atraxa-deck | where:"type","Creature" %}
+{% assign instants = site.data.atraxa-deck | where:"type","Instant" %}
+{% assign lands = site.data.atraxa-deck | where:"type","Land" %}
+{% assign artifacts = site.data.atraxa-deck | where:"type","Artifact" %}
+{% assign planeswalkers = site.data.atraxa-deck | where:"type","Planeswalker" %}
 
-## Sorceries
-<!-- {% assign deck = site.data.atraxa-deck | where:"type","Sorcery" %} -->
-{% assign deck = site.data.atraxa-deck %}
+## Creatures ({{creatures.size}})
 <div class="grid">
-    {% for card in deck %}
-    <card>
-        <div class="card-type" align="center">
-            {{ card.type }}
-        </div>
-        <div align="center">
-            <img src="{{ card. image }}" />
-        </div>
-        <div class="text">
-            <div align="center">
-                <span class="card-title">{{ card.name }}</span>
-            </div>
-            <ul>
-            {% for reason in card.reasons %}
-                <li>{{ reason }}</li>
-            {% endfor %}
-            </ul>
-        </div>
-    </card>
+    {% for card in creatures %}
+        {% include card.html card=card %}
+    {% endfor %}
+</div>
+
+## Sorceries ({{sorceries.size}})
+<div class="grid">
+    {% for card in sorceries %}
+        {% include card.html card=card %}
+    {% endfor %}
+</div>
+
+## Instants ({{instants.size}})
+<div class="grid">
+    {% for card in instants %}
+        {% include card.html card=card %}
+    {% endfor %}
+</div>
+
+## Artifacts ({{artifacts.size}})
+<div class="grid">
+    {% for card in artifacts %}
+        {% include card.html card=card %}
+    {% endfor %}
+</div>
+
+## Planeswalker ({{planeswalkers.size}})
+<div class="grid">
+    {% for card in planeswalkers %}
+        {% include card.html card=card %}
+    {% endfor %}
+</div>
+
+## Lands ({{lands.size}})
+<div class="grid">
+    {% for card in lands %}
+        {% include card.html card=card %}
     {% endfor %}
 </div>

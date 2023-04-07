@@ -1,0 +1,18 @@
+<card>
+    <div class="card-type" align="center">
+        {{ card.type }}
+    </div>
+    <div align="center">
+        <img src="{{ card. image }}" />
+    </div>
+    <div class="text">
+        <div align="center">
+            <span class="card-title">{{ card.name }}</span>
+        </div>
+        <ul>
+        {% for reason in card.reasons %}
+            <li>{{ reason }}</li>
+        {% endfor %}
+        </ul>
+    </div>
+</card>

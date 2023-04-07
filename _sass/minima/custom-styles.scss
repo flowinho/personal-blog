@@ -25,3 +25,30 @@ img {
 .dadjoke-src {
     color: darkgray;
 }
+
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
+    grid-gap: 16px;
+    align-items: stretch;
+    }
+  .grid > card {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  .grid > card img {
+    max-width: 100%;
+    margin-top: 16px;
+  }
+  .text {
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 16px;
+  }
+  .card-title {
+      font-weight: bold;
+  }
+  .card-type {
+      color: darkgray;
+      border-bottom: 1px solid #ccc;
+  }
