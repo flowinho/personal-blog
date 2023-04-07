@@ -251,7 +251,9 @@ pre {
  */
 table {
   margin-bottom: $spacing-unit;
-  width: 100%;
+  //width: 100%;
+  width: auto;
+  margin: auto;
   text-align: $table-text-align;
   color: $table-text-color;
   border-collapse: collapse;
@@ -271,6 +273,7 @@ table {
   td {
     border: 1px solid $table-border-color;
   }
+  margin-bottom: 16px;
 
   @include media-query($on-laptop) {
     overflow-x: auto;
