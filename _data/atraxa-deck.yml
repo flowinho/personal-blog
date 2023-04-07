@@ -1,0 +1,45 @@
+- name: Test
+  image: https://cards.scryfall.io/small/front/a/a/aaafb9bc-7cea-4624-a227-595544fa42b0.jpg?1590511888
+  edition: Alpha 
+  type: Standard Land
+  reasons:
+    - verdammt geile karte hudas hjda hjdsa
+    - wirklich gut
+- name: Noch ein test
+  image: https://cards.scryfall.io/small/front/a/8/a81a49a0-995a-4311-894d-5cbfba59db14.jpg?1604195944
+  edition: ZNE
+  type: Creature
+  reasons:
+    - einfach auch gut
+    - finde ich
+    - was passiert
+- name: Test
+  image: https://cards.scryfall.io/small/front/a/a/aaafb9bc-7cea-4624-a227-595544fa42b0.jpg?1590511888
+  edition: Alpha 
+  type: Planeswalker
+  reasons:
+    - verdammt geile karte
+    - wirklich gut
+- name: Noch ein test
+  image: https://cards.scryfall.io/small/front/a/8/a81a49a0-995a-4311-894d-5cbfba59db14.jpg?1604195944
+  edition: ZNE
+  type: Sorcery
+  reasons:
+    - einfach auch gut
+    - finde ich
+    - wenn karten
+    - mehrer reasons
+    - haben?
+- name: Test
+  image: https://cards.scryfall.io/small/front/a/a/aaafb9bc-7cea-4624-a227-595544fa42b0.jpg?1590511888
+  edition: Alpha 
+  type: Sorcery
+  reasons:
+    - verdammt geile karte
+    - wirklich gut
+- name: Noch ein test
+  image: https://cards.scryfall.io/small/front/a/8/a81a49a0-995a-4311-894d-5cbfba59db14.jpg?1604195944
+  edition: ZNE
+  reasons:
+    - einfach auch gut
+    - finde ich
