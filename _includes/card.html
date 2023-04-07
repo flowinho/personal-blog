@@ -5,10 +5,10 @@
     <div align="center">
         <img src="{{ card. image }}" />
     </div>
-    <div class="text">
-        <div align="center">
-            <span class="card-title">{{ card.name }}</span>
-        </div>
+    <div class="card-title" align="center">
+        <span>{{ card.name }}</span>
+    </div>
+    <div class="card-text">
         <ul>
         {% for reason in card.reasons %}
             <li>{{ reason }}</li>

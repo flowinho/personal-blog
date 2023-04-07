@@ -1,51 +1,13 @@
-- name: Test
-  image: https://cards.scryfall.io/small/front/a/a/aaafb9bc-7cea-4624-a227-595544fa42b0.jpg?1590511888
-  type: Land
-  reasons:
-    - verdammt geile karte hudas hjda hjdsa
-    - wirklich gut
-- name: Noch ein test
-  image: https://cards.scryfall.io/small/front/a/8/a81a49a0-995a-4311-894d-5cbfba59db14.jpg?1604195944
+- name: Atraxa, Praetors Voice
+  image: https://cards.scryfall.io/small/front/d/0/d0d33d52-3d28-4635-b985-51e126289259.jpg?1599707796
   type: Creature
   reasons:
-    - einfach auch gut
-    - finde ich
-    - was passiert
-- name: Test
-  image: https://cards.scryfall.io/small/front/a/a/aaafb9bc-7cea-4624-a227-595544fa42b0.jpg?1590511888
-  type: Instant
+    - 4/4 Fliegend, Wachsam, Lifelink und Deathtouch, das ist eine Ansage an die Gegner.
+    - Kostet nur vier Mana!
+    - Commander, daher zentraler Effekt "Proliferate".
+- name: Ixhel, Scion of Atraxa
+  image: https://cards.scryfall.io/small/front/a/b/ab866ec4-dcb4-47ef-8de1-a369986609c0.jpg?1675905559
+  type: Creature
   reasons:
-    - verdammt geile karte
-    - wirklich gut
-- name: Test
-  image: https://cards.scryfall.io/small/front/a/a/aaafb9bc-7cea-4624-a227-595544fa42b0.jpg?1590511888
-  type: Planeswalker
-  reasons:
-    - verdammt geile karte
-    - wirklich gut
-- name: Test
-  image: https://cards.scryfall.io/small/front/a/a/aaafb9bc-7cea-4624-a227-595544fa42b0.jpg?1590511888
-  type: Planeswalker
-  reasons:
-    - verdammt geile karte
-    - wirklich gut
-- name: Noch ein test
-  image: https://cards.scryfall.io/small/front/a/8/a81a49a0-995a-4311-894d-5cbfba59db14.jpg?1604195944
-  type: Artifact
-  reasons:
-    - einfach auch gut
-    - finde ich
-    - wenn karten
-    - mehrer reasons
-    - haben?
-- name: Test
-  image: https://cards.scryfall.io/small/front/a/a/aaafb9bc-7cea-4624-a227-595544fa42b0.jpg?1590511888
-  type: Sorcery
-  reasons:
-    - verdammt geile karte
-    - wirklich gut
-- name: Noch ein test
-  image: https://cards.scryfall.io/small/front/a/8/a81a49a0-995a-4311-894d-5cbfba59db14.jpg?1604195944
-  reasons:
-    - einfach auch gut
-    - finde ich
+    - Starke Grundfähigkeiten.
+    - Ab drei Poison kann man die oberste Karte der gegnerischen Decks spielen.
