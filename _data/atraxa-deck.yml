@@ -1,25 +1,81 @@
+# ---
+# Creatures
+# ---
 - name: Atraxa, Praetors Voice
-  image: https://cards.scryfall.io/small/front/d/0/d0d33d52-3d28-4635-b985-51e126289259.jpg?1599707796
+  image: https://cards.scryfall.io/large/front/d/0/d0d33d52-3d28-4635-b985-51e126289259.jpg?1599707796
   type: Creature
+  drop: Mythic Rare
   reasons:
     - 4/4 Fliegend, Wachsam, Lifelink und Deathtouch, das ist eine Ansage an die Gegner.
     - Kostet nur vier Mana!
-    - Commander, daher zentraler Effekt "Proliferate".
-- name: Ixhel, Scion of Atraxa
-  image: https://cards.scryfall.io/small/front/a/b/ab866ec4-dcb4-47ef-8de1-a369986609c0.jpg?1675905559
+    - Commander, daher zentraler Effekt "Proliferate"
+
+- name: Birds of Paradise
+  image: https://cards.scryfall.io/large/front/8/2/82ef6d6c-db50-4d24-8ebd-311613ddef06.jpg?1675202044
   type: Creature
+  drop: Rare
+  reasons:
+    - Exzellenter Mana-Support im Early Game.
+
+- name: Ixhel, Scion of Atraxa
+  image: https://cards.scryfall.io/large/front/a/b/ab866ec4-dcb4-47ef-8de1-a369986609c0.jpg?1675905559
+  type: Creature
+  drop: Mythic Rare
   reasons:
     - Starke Grundfähigkeiten.
     - Ab drei Poison kann man die oberste Karte der gegnerischen Decks spielen.
     - Fliegend und toxisch. 
+
 - name: Ichormoon Gauntlet
-  image: https://cards.scryfall.io/small/front/2/c/2c093ce0-2561-4847-ab58-f6f1650d743e.jpg?1675956970
+  image: https://cards.scryfall.io/large/front/2/c/2c093ce0-2561-4847-ab58-f6f1650d743e.jpg?1675956970
   type: Artifact
+  drop: Mythic Rare
   reasons:
-    - test
+    - Erlaubt es in Kombination mit Teferi, Master of Time, in jedem Zug zu proliferaten.
+
+- name: Sol Ring
+  image: https://cards.scryfall.io/large/front/e/b/ebfcda26-1f28-4d60-bc7b-8c0bafc6b132.jpg?1673310361
+  type: Artifact
+  drop: Uncommon
+  reasons:
+    - Einfach nur unfair und imbalanced.
+    - Wer ohne Sol Ring spielt, ist selbst schuld.
+
+- name: Lightning Greaves
+  image: https://cards.scryfall.io/large/front/8/d/8d9f47af-5929-44f4-bc6b-3ac7e521177d.jpg?1674142641
+  type: Artifact
+  drop: Uncommon
+  reasons:
+    - Guter Schutz für Atraxa oder andere wichtige Kreaturen.
+    - Kostet wenig Mana.
+
 - name: Watery Grave
-  image: https://cards.scryfall.io/small/front/7/d/7d4595f2-9297-40dc-b2dd-7144bbb401f7.jpg?1572894217
+  image: https://cards.scryfall.io/large/front/7/d/7d4595f2-9297-40dc-b2dd-7144bbb401f7.jpg?1572894217
   type: Land
+  drop: Rare
   reasons:
     - Schock-Duals sind im Commander aufgrund der hohen Lebenspunkte eine günstige Alternative zu echten Duals.
-    - b
+
+- name: Overgrown Tomb
+  image: https://cards.scryfall.io/large/front/1/c/1c7d50d6-b63a-4d8c-88fa-1d78ae693a45.jpg?1562783396
+  type: Land
+  drop: Rare
+  edition: Return to Ravnica
+  reasons: 
+    - Schock-Duals sind im Commander aufgrund der hohen Lebenspunkte eine günstige Alternative zu echten Duals.
+
+- name: Teferi, Master of Time
+  image: https://cards.scryfall.io/large/front/9/c/9c0c61e3-9f3d-4e7f-9046-0ea336dd8a2d.jpg?1594735806
+  type: Planeswalker
+  drop: Mythic Rare
+  reasons:
+    - Unglaublich vielseitig.
+    - Wenn ein Gegner angreift, kann Teferi eine angreifende Kreatur ausphasen.
+    - Gute Synergie mit Ichormoon Gauntlet.
+
+- name: Rhystic Study
+  image: https://cards.scryfall.io/large/front/3/3/3394cefd-a3c6-4917-8f46-234e441ecfb6.jpg?1592487887
+  type: Enchantment
+  drop: Common
+  reasons:
+    - Maschinerie um Karten zu ziehen.

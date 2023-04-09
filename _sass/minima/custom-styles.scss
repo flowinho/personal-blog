@@ -38,22 +38,29 @@ img {
   }
   .grid > card img {
     max-width: 100%;
-    margin-top: 16px;
+    margin-top: 12px;
+    height: 336px;
+    width: 240px;
+    border-radius: 12px;
   }
   .card-text {
     margin-top: 16px;
     margin-left: 8px;
     margin-right: 16px;
+    line-height: 1.2;
   }
   .card-title {
       font-weight: bold;
       color: $site-title-color;
       margin-top: 16px;
-      margin-bottom: 8px;
-      border-bottom: 1px solid #ccc;
       border-top: 1px solid #ccc;
   }
   .card-type {
+      color: darkgray;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 8px;
+  }
+  .card-edition {
       color: darkgray;
       border-bottom: 1px solid #ccc;
   }
