@@ -79,3 +79,11 @@
   drop: Common
   reasons:
     - Maschinerie um Karten zu ziehen.
+    
+- name: Mystic Remora
+  image:  https://cards.scryfall.io/large/front/1/3/13a08c07-e8b8-43bf-99e6-d268c79a62bf.jpg?1559592432
+  type: Enchantment
+  drop: Uncommon
+  edition: Ice Age
+  reasons:
+    - Maschinerie um Karten zu ziehen.
