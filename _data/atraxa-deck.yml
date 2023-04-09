@@ -64,6 +64,15 @@
   reasons: 
     - Schock-Duals sind im Commander aufgrund der hohen Lebenspunkte eine günstige Alternative zu echten Duals.
 
+- name: Indatha Triome
+  image: https://cards.scryfall.io/largr/front/6/7/67d046e2-649d-4ef3-8040-4e2fa7e530a3.jpg?1630631253
+  type: Land
+  drop: Rare
+  edition: Magic Online Promos
+  reasons:
+    - Ist Ebene, Sumpf und Wald, kann also gefetched werden.
+    - Triple Lands sind in vierfarbigen Decks eine große Hilfe.
+
 - name: Teferi, Master of Time
   image: https://cards.scryfall.io/large/front/9/c/9c0c61e3-9f3d-4e7f-9046-0ea336dd8a2d.jpg?1594735806
   type: Planeswalker
