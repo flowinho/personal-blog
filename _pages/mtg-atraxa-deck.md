@@ -5,13 +5,13 @@ title: "Mein Commander Deck: Atraxa, Praetors Voice"
 ---
 
 {% assign deck = site.data.atraxa-deck %}
-{% assign sorceries = site.data.atraxa-deck | where:"type","Sorcery" | sort: "drop" %}
-{% assign creatures = site.data.atraxa-deck | where:"type","Creature" | sort: "drop" %}
-{% assign instants = site.data.atraxa-deck | where:"type","Instant" | sort: "drop" %}
-{% assign lands = site.data.atraxa-deck | where:"type","Land" | sort: "drop" %}
-{% assign artifacts = site.data.atraxa-deck | where:"type","Artifact" | sort: "drop" %}
-{% assign planeswalkers = site.data.atraxa-deck | where:"type","Planeswalker" | sort: "drop" %}
-{% assign enchantments = site.data.atraxa-deck | where:"type","Enchantment" | sort: "drop" %}
+{% assign sorceries = site.data.atraxa-deck | where:"type","Sorcery" | sort: "name" | sort: "drop" %}
+{% assign creatures = site.data.atraxa-deck | where:"type","Creature" | sort: "name" | sort: "drop" %}
+{% assign instants = site.data.atraxa-deck | where:"type","Instant" | sort: "name" | sort: "drop" %}
+{% assign lands = site.data.atraxa-deck | where:"type","Land" | sort: "name" | sort: "drop" %}
+{% assign artifacts = site.data.atraxa-deck | where:"type","Artifact" | sort: "name" | sort: "drop" %}
+{% assign planeswalkers = site.data.atraxa-deck | where:"type","Planeswalker" | sort: "name" | sort: "drop" %}
+{% assign enchantments = site.data.atraxa-deck | where:"type","Enchantment" | sort: "name" | sort: "drop" %}
 
 ## Creatures ({{creatures.size}})
 <div class="grid">
