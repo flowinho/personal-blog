@@ -129,6 +129,15 @@
   reasons:
     - Ist Sumpf, Wald und Insel, kann also gefetched werden.
     - Triple Lands sind in vierfarbigen Decks eine große Hilfe.
+    
+- name: Flooded Strand
+  image:  https://cards.scryfall.io/large/front/8/c/8c2996d9-3287-4480-8c04-7a378e37e3cf.jpg?1571667973
+  type: Land
+  drop: Rare
+  edition: Khans of Tarkir
+  reasons:
+    - Fetch-Land, extrem nützlich, um gewünschte Länder aus dem Deck zu holen (Mana-Fixing).
+    - Praktisch, um das Deck auszudünnen.
 
 - name: Swamp
   image: https://cards.scryfall.io/large/front/5/7/57ef531e-2a8f-4d40-b509-92e3a86b2257.jpg?1655495433
