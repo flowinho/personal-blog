@@ -102,6 +102,15 @@
   edition: Return to Ravnica
   reasons: 
     - Schock-Duals sind im Commander aufgrund der hohen Lebenspunkte eine günstige Alternative zu echten Duals.
+    
+- name: Temple Garden
+  image: https://cards.scryfall.io/large/front/7/9/794a2b79-8c55-4423-8843-7e6e96f84071.jpg?1598918487
+  type: Land
+  drop: Rare
+  edition: Ravnica City of Guilds
+  reasons:
+    - Schock-Duals sind im Commander aufgrund der hohen Lebenspunkte eine günstige Alternative zu echten Duals.
+
 
 - name: Indatha Triome
   image: https://cards.scryfall.io/large/front/6/7/67d046e2-649d-4ef3-8040-4e2fa7e530a3.jpg?1630631253
