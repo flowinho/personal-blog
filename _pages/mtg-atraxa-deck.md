@@ -12,10 +12,12 @@ title: "Mein Commander Deck: Atraxa, Praetors Voice"
 {% assign artifacts = site.data.atraxa-deck | where:"type","Artifact" | sort: "name" | sort: "drop" %}
 {% assign planeswalkers = site.data.atraxa-deck | where:"type","Planeswalker" | sort: "name" | sort: "drop" %}
 {% assign enchantments = site.data.atraxa-deck | where:"type","Enchantment" | sort: "name" | sort: "drop" %}
-{% assign commanders = site.data.atraxa-deck | where:“type“,“Commander“ | sort: „name“ | sort: „drop“ %}
+{% assign commanders = site.data.atraxa-deck | where:"type","Commander" | sort: "name" | sort: "drop" %}
+
+
 
 ## Commanders ({{commanders.size}})
-<div class=„grid“>
+<div class="grid">
     {% for card in commanders %}
         {% include card.html card=card %}
     {% endfor %}
