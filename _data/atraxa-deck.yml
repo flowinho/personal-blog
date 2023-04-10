@@ -90,6 +90,7 @@
 - name: Farewell
   image: https://cards.scryfall.io/large/front/9/8/98c664bc-9585-47a7-9514-b3e30a4e1b59.jpg?1654569820
   drop: Rare
+  type: Sorcery
   edition: "Kamigawa: Neon Dynasty"
   reasons:
     - Mächtiger Boardwipe.
