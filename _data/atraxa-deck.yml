@@ -86,6 +86,15 @@
     - Guter Schutz für Atraxa oder andere wichtige Kreaturen.
     - Gibt Eile.
     - Kostet wenig Mana.
+    
+- name: Farewell
+  image: https://cards.scryfall.io/large/front/9/8/98c664bc-9585-47a7-9514-b3e30a4e1b59.jpg?1654569820
+  drop: Rare
+  edition: "Kamigawa: Neon Dynasty"
+  reasons:
+    - Mächtiger Boardwipe.
+    - Sieht toll aus. 
+  
 
 - name: Watery Grave
   image: https://cards.scryfall.io/large/front/7/d/7d4595f2-9297-40dc-b2dd-7144bbb401f7.jpg?1572894217
