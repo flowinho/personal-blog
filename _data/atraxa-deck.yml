@@ -48,6 +48,15 @@
     - Fliegt.
     - Führt Wucherung durch.
     - Das reicht an Gründen.
+    
+- name: Bloated Contaminator
+  image: https://cards.scryfall.io/large/front/4/1/411bda96-6c65-475d-9850-0a9b3eefa553.jpg?1678455105
+  type: Creature
+  drop: Rare
+  edition: "Phyrexia: All Will Be One"
+  reasons:
+    - 3-Mana 4/4 Toxic mit Trample.
+    - Triggert Proliferate bei direktem Schaden an Spielern, kommt allerdings nicht sehr oft vor.
 
 
 - name: Ichormoon Gauntlet
