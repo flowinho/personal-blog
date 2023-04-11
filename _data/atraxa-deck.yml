@@ -58,6 +58,14 @@
     - 3-Mana 4/4 Toxic mit Trample.
     - Triggert Proliferate bei direktem Schaden an Spielern, kommt allerdings nicht sehr oft vor.
 
+- name: Cankerbloom
+  image: https://cards.scryfall.io/large/front/0/2/02272f89-dd8e-4a07-8bd4-b33ad4e12888.jpg?1677100085
+  type: Creature
+  edition: "Phyrexia: All Will Be One"
+  reasons:
+    - Eine 3/2 für 2 Mana ist schon Value genug. 
+    - Kann als Artifact- oder Enchantment-Removal eingesetzt werden.
+    - Ich bin immer wieder begeistert, wie vielseitig diese unscheinbare Karte ist.
 
 - name: Ichormoon Gauntlet
   image: https://cards.scryfall.io/large/front/2/c/2c093ce0-2561-4847-ab58-f6f1650d743e.jpg?1675956970
