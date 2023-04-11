@@ -68,6 +68,18 @@
     - Kann als Artifact- oder Enchantment-Removal eingesetzt werden.
     - Ich bin immer wieder begeistert, wie vielseitig diese unscheinbare Karte ist.
 
+- name: Ezuri, Stalker of Spheres
+  image: https://cards.scryfall.io/large/front/d/3/d38961ce-0257-412f-acec-c5c9886061f8.jpg?1675957189
+  type: Creature
+  drop: Rare
+  edition: "Phyrexia: All Will Be One"
+  reasons:
+    - Card draw zu Beginn jeder Endphase, falls Atraxa im Spiel ist. 
+    - Card draw mit jedem Proliferate, das passiert. 
+
+
+
+
 - name: Ichormoon Gauntlet
   image: https://cards.scryfall.io/large/front/2/c/2c093ce0-2561-4847-ab58-f6f1650d743e.jpg?1675956970
   type: Artifact
@@ -114,6 +126,13 @@
     - Mächtiger Boardwipe.
     - Sieht toll aus. 
   
+- name: Drown in Ichor
+  image: https://cards.scryfall.io/large/front/b/f/bf148ef4-0ed7-4fbe-8ab6-01dd3981c8d3.jpg?1675957021
+  drop: Uncommon
+  type: Sorcery
+  edition: "Phyrexia: All Will Be One"
+  reasons:
+    - Nutzbar als Removal + Proliferate. 
 
 - name: Watery Grave
   image: https://cards.scryfall.io/large/front/7/d/7d4595f2-9297-40dc-b2dd-7144bbb401f7.jpg?1572894217
