@@ -306,6 +306,15 @@
   reasons:
     - Maschinerie um Karten zu ziehen.
 
+- name: Inexorable Tide
+  image: https://cards.scryfall.io/art_crop/front/4/0/40441345-23ca-47e4-b349-bd13d986e41e.jpg?1562261170
+  type: Enchantment
+  drop: Rare
+  edition: Modern Master 2015
+  reasons:
+    - Proliferate mit jeden Spell?
+    - Proliferate mit jedem Spell.
+
 - name: Phyrexian Arena
   image: https://cards.scryfall.io/large/front/5/4/54f69d43-de01-46a8-b102-b47e23e0e947.jpg?1675957043
   type: Enchantment
