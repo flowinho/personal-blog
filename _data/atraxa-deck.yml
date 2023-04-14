@@ -77,7 +77,13 @@
     - Card draw zu Beginn jeder Endphase, falls Atraxa im Spiel ist. 
     - Card draw mit jedem Proliferate, das passiert. 
 
-
+- name: Tekuthal, Inquiry Dominus
+  image: https://cards.scryfall.io/large/front/f/1/f1d4b157-2c77-4355-8c65-78dec9d44c85.jpg?1675956992
+  type: Creature
+  drop: Mythic Rare
+  edition: "Phyrexia: All Will Be One"
+  reasons:
+    - Verdoppelt Proliferate.
 
 
 - name: Ichormoon Gauntlet
