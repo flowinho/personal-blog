@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: wide
 permalink: /atraxa-deck/
 title: "Mein Commander Deck: Atraxa, Praetors Voice"
 ---
