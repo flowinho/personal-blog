@@ -15,11 +15,3 @@
 .md-header__title {
     font-size: 0.65rem;
 }
-
-.md-content img {
-    border-style: none;
-    max-height: 700px;
-    max-width: 900px;
-    margin: auto;
-    border-radius: 5px;
-}
