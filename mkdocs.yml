@@ -14,13 +14,13 @@ theme:
     # primary: deep blue
     # accent: deep blue
     - scheme: default
-      primary: white
+      primary: black
       accent: amber
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
     - scheme: slate
-      primary: white
+      primary: amber
       accent: amber
       toggle:
         icon: material/brightness-4
