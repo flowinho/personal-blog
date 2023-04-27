@@ -1,8 +1,6 @@
 # Zitronenpasta mit Erbsen und Ricotta
 
-|![](bandnudeln-erbsen-ricotta.jpg)|
-|:-:|
-|Geht sowas von schnell und ist mega lecker |
+![](bandnudeln-erbsen-ricotta.jpg)
 
 ## Zutaten für zwei Personen
 
