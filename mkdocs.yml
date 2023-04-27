@@ -6,24 +6,37 @@ theme:
     - navigation.sections
     - navigation.expand
   palette:
-    primary: deep purple
+    primary: deep blue
+    accent: deep blue
 
 plugins:  
   - search
-  - mermaid2
   - awesome-pages
 
 extra_css: [custom.css]
 
 extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mermaid@10
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
 
 markdown_extensions:
+  - footnotes
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 
 extra:
   generator: false
