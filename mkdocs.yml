@@ -1,0 +1,29 @@
+site_name: Dadda.moe
+
+theme:
+  name: material
+  features: 
+    - navigation.sections
+    - navigation.expand
+  palette:
+    primary: deep purple
+
+plugins:  
+  - search
+  - mermaid2
+  - awesome-pages
+
+extra_css: [custom.css]
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+
+extra:
+  generator: false
