@@ -1,11 +1,15 @@
 site_name: Dadda.moe
+copyright: Copyright &copy; 2023 - Florian Schuttkowski
 
 theme:
   name: material
   language: de
+  icon:
+    logo: material/human-greeting-variant
   features: 
     - navigation.sections
     - navigation.expand
+    - navigation.top
   palette:
     primary: deep blue
     accent: deep blue
@@ -41,3 +45,8 @@ markdown_extensions:
 
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/mastodon 
+      link: https://chaos.social/@flowinho
+    - icon: fontawesome/brands/github 
+      link: https://github.com/flowinho
