@@ -14,7 +14,7 @@ theme:
     # primary: deep blue
     # accent: deep blue
     - scheme: default
-      primary: black
+      primary: amber
       accent: amber
       toggle:
         icon: material/brightness-7 
