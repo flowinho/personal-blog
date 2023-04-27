@@ -2,6 +2,7 @@ site_name: Dadda.moe
 
 theme:
   name: material
+  language: de
   features: 
     - navigation.sections
     - navigation.expand
