@@ -11,8 +11,20 @@ theme:
     - navigation.expand
     - navigation.top
   palette:
-    primary: deep blue
-    accent: deep blue
+    # primary: deep blue
+    # accent: deep blue
+    - scheme: default
+      primary: white
+      accent: amber
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      primary: white
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 plugins:  
   - search
