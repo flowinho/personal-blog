@@ -10,9 +10,8 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - header.autohide
   palette:
-    # primary: deep blue
-    # accent: deep blue
     - scheme: default
       primary: amber
       accent: amber
@@ -33,11 +32,12 @@ plugins:
 extra_css: [custom.css]
 
 extra_javascript:
-  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-  - javascripts/tablesort.js
+  #- https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  #- javascripts/tablesort.js
 
 markdown_extensions:
   - footnotes
+  - attr_list
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
