@@ -14,13 +14,15 @@ theme:
     - content.code.copy
     - content.code.annotate
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
       primary: amber
       accent: amber
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
       primary: amber
       accent: amber
       toggle:
