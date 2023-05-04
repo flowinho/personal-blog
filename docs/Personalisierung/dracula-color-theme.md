@@ -1,5 +1,7 @@
 # Dracula Color Theme
 
+![dracula-terminal](dracula-vim.png)
+
 [Dracula](https://draculatheme.com/) ist ein populäres Farbschema, welches von der Community für sehr viele Programme portiert wurde.
 Ich nutze es, wenn möglich, überall.
 
