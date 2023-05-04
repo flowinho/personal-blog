@@ -12,5 +12,7 @@ Varianten von Dracula, die ich nutze:
 - [Dracula for Firefox](https://draculatheme.com/firefox)
 - [Dracula for Obsidian](https://draculatheme.com/obsidian)
 - [Dracula for GitHub](https://draculatheme.com/github)
+- [Dracula for iTerm](https://draculatheme.com/iterm)
+- [Dracula for Visual Studio Code](https://draculatheme.com/visual-studio-code)
 - [Dracula for Midnight Commander](https://draculatheme.com/midnight-commander)
 - [Dracula for Starship](https://draculatheme.com/starship)
